@@ -1,6 +1,7 @@
                     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
                      :root {
                         --bg-gray: #ddd;
+                        --text-gray: #4a4a4a;
                         --color-primary: #4D41C0;
                         --white: #fff;
                     }
@@ -62,4 +63,46 @@
                     
                     .dsmovie-contact-container img {
                         margin-right: 10px;
+                    }
+                    
+                    #dsmmovie-card-list {
+                        padding: 40px 0;
+                    }
+                    
+                    .dsmmovie-card {
+                        width: 360px;
+                    }
+                    
+                    .dsmmovie-card img {
+                        width: 100%;
+                        border-radius: 8px 8px 0 0;
+                    }
+                    
+                    .dsmmovie-card-description {
+                        background-color: var(--white);
+                        padding: 10px 0 20px 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        border-radius: 0 0 8px 8px;
+                    }
+                    
+                    .dsmmovie-card-description h3 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        margin-bottom: 25px;
+                    }
+                    
+                    .dsmmovie-btn,
+                    .dsmmovie-btn:hover {
+                        width: 180px;
+                        height: 40px;
+                        background-color: var(--color-primary);
+                        color: var(--white);
+                        font-size: 14px;
+                        font-weight: 700;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 4px;
                     }
